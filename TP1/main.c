@@ -17,6 +17,7 @@ int main()
    int result_factorial_2;
    int flag = 0;
    int flag_2 = 0;
+   int flag_3 = 0;
    char answer = 's';
    int option;
 
@@ -48,6 +49,7 @@ int main()
           result_multiply = multiply(a,b);
           result_divide = (float)divide(a,b);
           result_subtract = subtract(a,b);
+          flag_3 = 1;
           if(a >= 0 && b >= 0)
           {
               result_factorial_1 = factorial(a);
@@ -68,9 +70,11 @@ int main()
         break;
 
     case 4:
-        system("cls");
-        if(flag == 1 && flag_2 == 1)
-          printf("\nresultado de %d mas %d es: %d\nresultado de %d multiplicado %d es: %d\nresultado de %d menos %d es: %d\nresultado de: %d dividido %d es: %.2f\nfactorial de %d es %d\nfactorial de %d es: %d",a,b,result_add,a,b,result_multiply,a,b,result_subtract,a,b,(float)result_divide,a,result_factorial_1,b,result_factorial_2);
+
+        if(flag_3 == 1)
+            printf("\nresultado de %d mas %d es: %d\nresultado de %d multiplicado %d es: %d\nresultado de %d menos %d es: %d\nresultado de: %d dividido %d es: %.2f\nfactorial de %d es %d\nfactorial de %d es: %d",a,b,result_add,a,b,result_multiply,a,b,result_subtract,a,b,(float)result_divide,a,result_factorial_1,b,result_factorial_2);
+        else if(flag_3 == 0)
+            printf("\nfalta realizar las operaciones");
         else if(flag ==1 || flag_2 ==1)
           printf("\nfalta ingresar un operando");
         else
