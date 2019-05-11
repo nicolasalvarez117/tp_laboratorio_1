@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1557538125 source:c:\users\walkinotebook\desktop\utn examen lunes\tp_2\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"imput.h"
+	"ArrayEmployees.h"
+
+1557095702 c:\users\walkinotebook\desktop\utn examen lunes\tp_2\imput.h
+
+1557537965 c:\users\walkinotebook\desktop\utn examen lunes\tp_2\arrayemployees.h
+
+1557537615 source:c:\users\walkinotebook\desktop\utn examen lunes\tp_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"imput.h"
+	"ArrayEmployees.h"
+
+1557496892 source:c:\users\walkinotebook\desktop\utn examen lunes\tp_2\imput.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"imput.h"
+
